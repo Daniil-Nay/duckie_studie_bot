@@ -27,7 +27,16 @@ Duckie Studie Bot — это обучающий Telegram-бот с двумя о
 
 
 ##  Установка
+Два варианта:
+1) Создать среду CONDA/venv (Я предпочитаю с conda работать)
+conda env create --n duckie_studie python==3.10
+conda activate duckie_studie 
+pip install -r requirements.txt
 
+2) скрипт для запуска run.py ⭐
+
+В любом из случаев понадобятся:
+tg bot token
 ## Структура проекта
 
 ├── bot.py                   # 'Сердце' бота: отвечает за рабочий цикл
